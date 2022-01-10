@@ -1,24 +1,50 @@
-# README
+ Hello-Rails-React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This project contains the first trial at connecting React on the front-end to Ruby-on-Rails on the backend. The app displays random messages contained in the seed file every time the button is clicked on.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+- Make sure you have [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Postgresql](https://www.postgresql.org/download/) installed on your system.
 
-* System dependencies
+- Install rails by running `gem install rails`
 
-* Configuration
+- Clone this repository by running `git clone https://github.com/DammyShittu/Hello-Rails-React.git` in your command line.
 
-* Database creation
+- Navigate to the repository by running `cd Hello-Rails-React`.
 
-* Database initialization
+- Run `yarn install` to install all dependencies
 
-* How to run the test suite
+- Run `rails db:create`, `rails db:migrate`, and `rails db:seed`  to create, migrate, and use seed data from your database.
 
-* Services (job queues, cache servers, search engines, etc.)
+- Run `rails s` and go to http:localhost:3000 to view the app.
 
-* Deployment instructions
+## Built With
 
-* ...
+- Ruby On Rails
+- React-Rails gem
+- Redux
+
+## Version Control System
+
+- Git
+
+## Author
+
+👤 **Adedamola Shittu**
+
+- GitHub: [@dammyShittu](https://github.com/DammyShittu/)
+
+- Twitter: [@aded_shittu](https://twitter.com/aded_shittu/)
+
+- LinkedIn: [Adedamola Shittu](https://www.linkedin.com/in/adedamolashittu/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/DammyShittu/Hello-Rails-React/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
