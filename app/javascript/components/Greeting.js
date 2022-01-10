@@ -32,7 +32,6 @@ class Greeting extends React.Component {
     return (
       <React.Fragment>
         <p>Click the button below to generate a random message</p>
-        <br />
         <button onClick={() => this.props.getGreeting()}>Get Greeting</button>
         <br />
         <ul>{ greetingList }</ul>
